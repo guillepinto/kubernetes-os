@@ -8,7 +8,7 @@
 
 Educational project developed for the Operating Systems course, focused on exploring Kubernetes fundamentals and container orchestration.
 
-[Guillermo Pinto](https://github.com/guillepinto), [Miguel Pimiento](https://github.com/pimientoyolo125), Juan D. Roa, [Juan D. García](https://github.com/JdgH957)
+[Guillermo Pinto](https://github.com/guillepinto), [Miguel Pimiento](https://github.com/pimientoyolo125), [Juan D. Roa](https://github.com/JuanRoa785), [Juan D. García](https://github.com/JdgH957)
 
 </div> 
 
