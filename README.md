@@ -28,7 +28,17 @@ This repository explores Kubernetes fundamentals and container orchestration thr
 ```
 
 ## Getting Started
-[Instructions for setting up and running the project locally]
+To begin working with this project, follow these steps:
+
+1. **Set up your development environment**: 
+   - Follow our comprehensive [Development Environment Setup Guide](docs/setup-guide.md)
+   - This guide includes:
+     - Comparing different Kubernetes tools (Minikube, Kind, K3s, Kubeadm)
+     - Step-by-step Minikube and kubectl installation
+     - Creating and managing your first cluster
+     - Basic cluster operations
+
+2. [Additional setup instructions will be added here]
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/guillepinto/kubernetes-os/blob/main/LICENSE) file for details.
