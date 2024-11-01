@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-demo-app
+spec:
+  replicas: 2  # Número inicial de réplicas
+  selector:
+    matchLabels:
+      app: k8s-demo-app
+  template:
+    metadata:
+      labels:
+        app: k8s-demo-app
+    spec:
+      containers:
+      - name: k8s-demo-app
+        image: k8s-demo-image:latest  # Nombre de la imagen creada
+        ports:
+        - containerPort: 8080  # Puerto que expone tu aplicación

@@ -1,5 +1,5 @@
 # Imagen que va a usar el proyecto de spring boot
-FROM openjdk:17-jre-slim
+FROM openjdk:17-slim
 
 VOLUME /tmp
 
