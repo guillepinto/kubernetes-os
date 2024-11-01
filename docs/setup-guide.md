@@ -1,6 +1,6 @@
 # Development Environment Setup Guide
 
-The following guide is based on the video you can find in the link below. Currently it has been tested on Linux (Ubuntu 22.04) and (in the video) macOS.
+The following guide is based on the video you can find in the link below. Currently it has been tested on Linux (Ubuntu 22.04), Windows 11 (with PowerShell) and (in the video) macOS.
 
 [https://www.youtube.com/watch?v=dSOS-7SZ_BA&list=PLrMP04WSdCjrkNYSFvFeiHrfpsSVDFMDR&index=3](https://www.youtube.com/watch?v=dSOS-7SZ_BA&list=PLrMP04WSdCjrkNYSFvFeiHrfpsSVDFMDR&index=3)
 
