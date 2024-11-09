@@ -2,6 +2,7 @@ apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: k8s-demo-app-hpa
+  namespace: default
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
@@ -12,8 +13,12 @@ spec:
   metrics:
   - type: Resource
     resource:
-      name: cpu
+      name: cpu #tipo de recurso a monitorear puede ser memory
       target:
         type: Utilization
-        averageUtilization: 70
-
+        averageUtilization: 70 #porcentaje de uso de CPU
+  behavior:
+    scaleDown:
+      stabilizationWindowSeconds: 5 #tiempo de espera para escalar hacia abajo
+    scaleUp:
+      stabilizationWindowSeconds: 5 #tiempo de espera para escalar hacia arriba

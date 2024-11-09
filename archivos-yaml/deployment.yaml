@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: k8s-demo-app
+  namespace: default
 spec:
   replicas: 2  # Número inicial de réplicas
   selector:
@@ -18,3 +19,10 @@ spec:
         imagePullPolicy: Never  # No se necesita descargar la imagen
         ports:
         - containerPort: 8080  # Puerto que expone tu aplicación
+        resources:
+          requests:
+            cpu: 100m  # Requiere al menos 100m de CPU
+            memory: 128Mi  # Requiere al menos 128Mi de memoria
+          limits:
+            cpu: 500m  # No debe superar los 500m de CPU
+            memory: 512Mi  # No debe superar los 512Mi de memoria
