@@ -21,8 +21,8 @@ spec:
         - containerPort: 8080  # Puerto que expone tu aplicación
         resources:
           requests:
-            cpu: 100m  # Requiere al menos 100m de CPU
-            memory: 128Mi  # Requiere al menos 128Mi de memoria
+            cpu: 500m  # Requiere al menos 100m de CPU
+            memory: 512Mi  # Requiere al menos 128Mi de memoria
           limits:
-            cpu: 500m  # No debe superar los 500m de CPU
-            memory: 512Mi  # No debe superar los 512Mi de memoria
+            cpu: 1000m  # No debe superar los 500m de CPU
+            memory: 1024Mi  # No debe superar los 512Mi de memoria
