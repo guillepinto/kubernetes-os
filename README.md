@@ -38,7 +38,14 @@ To begin working with this project, follow these steps:
      - Creating and managing your first cluster
      - Basic cluster operations
 
-2. [Additional setup instructions will be added here]
+2. **Set up Horizontal Pod Autoscaler (HPA)**:  
+   - Follow our detailed [HPA Demonstration Guide](docs/hpa-guide.md). 
+   - Key steps include:
+     - Installing necessary tools and packages
+     - Deploying the application on Minikube
+     - Installing and configuring the Kubernetes Metrics Server
+     - Applying the Horizontal Pod Autoscaler configuration
+     - Generating traffic to test autoscaling
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/guillepinto/kubernetes-os/blob/main/LICENSE) file for details.
