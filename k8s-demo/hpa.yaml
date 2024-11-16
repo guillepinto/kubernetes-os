@@ -16,3 +16,8 @@ spec:
           averageUtilization: 70
           type: Utilization
       type: Resource
+  behavior:
+    scaleDown:
+      stabilizationWindowSeconds: 5 #tiempo de espera para escalar hacia abajo
+    scaleUp:
+      stabilizationWindowSeconds: 5 #tiempo de espera para escalar hacia arriba

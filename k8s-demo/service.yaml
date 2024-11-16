@@ -8,5 +8,5 @@ spec:
     app: springboot-app
   ports:
     - protocol: TCP
-      port: 31000     # Puerto en el que el servicio escucha
+      port: 80     # Puerto en el que el servicio escucha
       targetPort: 8080  # Puerto del contenedor
