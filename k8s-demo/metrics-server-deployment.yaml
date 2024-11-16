@@ -19,9 +19,9 @@ spec:
           args:
             - --cert-dir=/tmp
             - --secure-port=10250
-            - --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname
             - --kubelet-use-node-status-port
             - --metric-resolution=15s
+            - --kubelet-preferred-address-types=InternalIP,Hostname,InternalDNS,ExternalDNS,ExternalIP
             - --kubelet-insecure-tls
           ports:
             - containerPort: 10250
