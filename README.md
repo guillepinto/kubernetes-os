@@ -39,7 +39,7 @@ To begin working with this project, follow these steps:
      - Basic cluster operations
 
 2. **Set up Horizontal Pod Autoscaler (HPA)**:  
-   - Follow our detailed [HPA Demonstration Guide](docs/hpa-guide.md). 
+   - Follow our detailed [HPA Demonstration Guide](docs/hpa-guide.md)
    - Key steps include:
      - Installing necessary tools and packages
      - Deploying the application on Minikube
