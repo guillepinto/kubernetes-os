@@ -47,6 +47,12 @@ To begin working with this project, follow these steps:
      - Applying the Horizontal Pod Autoscaler configuration
      - Generating traffic to test autoscaling
 
+3. **Demonstration with a Full-stack Application**  
+   - Dive into a practical example with our [Use Case: Deploying a Full-Stack Application with Kubernetes](docs/fullstack-demo.md).
+   - This section walks you through:  
+     - Deploying a backend API service and frontend client on Kubernetes.  
+     - Scaling the application with both Horizontal Pod Autoscaler (HPA) for performance optimization.    
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/guillepinto/kubernetes-os/blob/main/LICENSE) file for details.
 
