@@ -194,7 +194,6 @@ ssh -i ~/.ssh/id_rsa_ocean guille@<your_droplet_ip>
   ```bash
   git clone https://github.com/guillepinto/kubernetes-os.git
   cd kubernetes-os
-  git checkout feat/autoscaling
   cd k8s-demo
   ```
   

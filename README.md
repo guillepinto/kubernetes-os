@@ -24,7 +24,7 @@ This repository explores Kubernetes fundamentals and container orchestration thr
 ```bash
 .
 ├── docs/                    # Documentation and research
-└── implementation/          # Cluster setup and configuration files
+└── k8s-demo/          # Cluster setup and configuration files
 ```
 
 ## Getting Started
